@@ -1,0 +1,28 @@
+### --- SEGURANÇA (Obrigatório para este projeto) ---
+# Jamais suba suas chaves do Google Cloud!
+credentials.json
+*.json
+# Se você tiver uma pasta de chaves, ignore-a inteira
+keys/
+
+### --- PYTHON ---
+# Ignora arquivos compilados (aceleram o Python, mas não vão para o Git)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (Onde ficam as bibliotecas instaladas)
+venv/
+env/
+ENV/
+.venv/
+
+# Distribuição / Pacotes
+dist/
+build/
+*.egg-info/
+
+### --- SISTEMA ---
+# Arquivos ocultos do Windows/Mac que o Git não precisa ver
+.DS_Store
+Thumbs.db
