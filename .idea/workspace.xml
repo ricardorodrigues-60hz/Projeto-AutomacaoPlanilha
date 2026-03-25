@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4adca20-926b-43ea-93a7-5d9cb06217f0" name="Changes" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planilhaGui.py" beforeDir="false" afterPath="$PROJECT_DIR$/planilhaGui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planilhaService.py" beforeDir="false" afterPath="$PROJECT_DIR$/planilhaService.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774375606820</updated>
-      <workItem from="1774375607763" duration="18759000" />
+      <workItem from="1774375607763" duration="19650000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />

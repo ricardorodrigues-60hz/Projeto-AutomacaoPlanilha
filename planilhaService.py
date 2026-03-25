@@ -1,6 +1,6 @@
-import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from datetime import datetime
 
 
 class PlanilhaService:
@@ -19,11 +19,16 @@ class PlanilhaService:
 
     def inserir_registro(self, dados):
 
-        linha = [
+        hoje = datetime.today().strftime('%d/%m/%Y')
+
+        valores_coluna_a = self.aba.col_values(1)
+        proxima_linha = len(valores_coluna_a) + 1
+
+        campos = [
             dados.get('SCD'),
             dados.get('ID'),
             dados.get('OS'),
-            '',
+            hoje,
             dados.get('Data Previsto'),
             '',
             dados.get('Solicitante'),
@@ -34,8 +39,9 @@ class PlanilhaService:
             dados.get('Fornecedor'),
             ''
         ]
+        range_para_preencher = f"A{proxima_linha}:N{proxima_linha}"
 
-        self.aba.append_row(linha, value_input_option='USER_ENTERED')
+        self.aba.update(range_para_preencher, [campos], value_input_option='USER_ENTERED')
 
 
 
