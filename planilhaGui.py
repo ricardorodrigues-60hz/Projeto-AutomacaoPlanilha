@@ -24,6 +24,7 @@ class InterfaceAquisicao:
             ("ID PROTOCOLO:", "ID"),
             ("OS:", "OS"),
             ("Data Previsto (dd/mm/aaaa):", "Data Previsto"),
+            ("Solicitante:", "Solicitante"),
             ("Item:", "Item"),
             ("Quantidade:", "Qtde"),
             ("Valor Unitário:", "Vlr. Unitário"),
