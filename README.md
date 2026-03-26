@@ -1,10 +1,8 @@
 Controle de Aquisições - Google Sheets
-Interface em Python para automação de lançamentos no Google Sheets, integrada com tabelas pré-formatadas e menus suspensos (Kanban).
+Interface em Python para automação de lançamentos no Google Sheets, integrada com tabelas pré-formatadas e menus suspensos.
 
 🚀 Funcionalidades
 Interface gráfica simples para inserção de dados.
-
-Cálculo automático de status (Atrasado/Crítico).
 
 Preenchimento inteligente de linhas em tabelas existentes.
 
