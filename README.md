@@ -4,8 +4,6 @@ Interface em Python para automação de lançamentos no Google Sheets, integrada
 🚀 Funcionalidades
 Interface gráfica simples para inserção de dados.
 
-Cálculo automático de status (Atrasado/Crítico).
-
 Preenchimento inteligente de linhas em tabelas existentes.
 
 Conexão segura via API do Google Cloud.
